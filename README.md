@@ -1,14 +1,18 @@
-  Book Library Navigation \* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; } body { background-color: #f5f7fa; color: #333; line-height: 1.6; } .container { max-width: 1200px; margin: 0 auto; padding: 20px; } header { text-align: center; margin-bottom: 30px; padding: 20px; background-color: #2c3e50; color: white; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); } h1 { font-size: 2.5rem; margin-bottom: 10px; } .categories { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; } .category { background-color: white; border-radius: 8px; padding: 20px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease, box-shadow 0.3s ease; } .category:hover { transform: translateY(-5px); box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); } .category h2 { color: #2c3e50; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 2px solid #e8e8e8; } .books { list-style-type: none; } .books li { margin-bottom: 10px; padding: 8px; background-color: #f8f9fa; border-radius: 4px; transition: background-color 0.2s ease; } .books li:hover { background-color: #e9ecef; } .books a { color: #3498db; text-decoration: none; display: block; } .books a:hover { color: #2980b9; text-decoration: underline; } @media (max-width: 768px) { .categories { grid-template-columns: 1fr; } }
-
 # Technical Book Library
 
-Navigate through various programming and technical resources
+Navigate through various programming and technical resources.
+
+## Overview
+
+This repository serves as a structured library of technical books and resources, organized by category for easy navigation and reference. Each section contains recommended readings on specific technical topics.
+
 
 ## Common
 
-*   [Clean Code.pdf](./Common/Clean Code.pdf)
-*   [Uncle Bob Clean Architecture.pdf](./Common/Uncle Bob Clean Architecture.pdf)
-*   [Pragmatic The Pragmatic Programmer.pdf](./Common/Pragmatic The Pragmatic Programmer.pdf)
+*   [Clean Code.pdf](./Common/Clean%20Code.pdf)
+*   [Uncle Bob Clean Architecture.pdf](./Common/Uncle%20Bob%20Clean%20Architecture.pdf)
+*   [Pragmatic The Pragmatic Programmer.pdf](./Common/Pragmatic%20The%20Pragmatic%20Programmer.pdf)
+*   [test](./Common/Pragmatic%20ThePragmaticProgramme)
 
 ## DDD
 
@@ -56,3 +60,11 @@ Navigate through various programming and technical resources
 *   [Fundamentals of Software Architecture](./System Design/Mark_Richards_Neal_Ford_Fundamentals_of_Software_Architecture_An.pdf)
 *   [Modern Software V1.1.2.pdf](./System Design/modern_software_V1_1_2.pdf)
 *   [System Design Interview.pdf](./System Design/SystemDesignInterview.pdf)
+
+## Usage
+
+Browse through the categories to find resources relevant to your learning goals. Each book is organized by topic to help you quickly locate materials for specific technical domains.
+
+## Contributing
+
+This library is maintained as a reference collection of valuable technical resources for developers and engineers.
