@@ -6,13 +6,11 @@ Navigate through various programming and technical resources.
 
 This repository serves as a structured library of technical books and resources, organized by category for easy navigation and reference. Each section contains recommended readings on specific technical topics.
 
-
 ## Common
 
 *   [Clean Code.pdf](./Common/Clean%20Code.pdf)
 *   [Uncle Bob Clean Architecture.pdf](./Common/Uncle%20Bob%20Clean%20Architecture.pdf)
 *   [Pragmatic The Pragmatic Programmer.pdf](./Common/Pragmatic%20The%20Pragmatic%20Programmer.pdf)
-*   [test](./Common/Pragmatic%20ThePragmaticProgramme)
 
 ## DDD
 
